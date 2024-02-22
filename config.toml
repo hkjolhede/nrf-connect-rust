@@ -1,0 +1,8 @@
+[net]
+git-fetch-with-cli=true
+retry=10
+
+[patch.crates-io]
+zephyr = { path = "/workdir/zephyr-rust/rust/zephyr" }
+zephyr-macros = { path = "/workdir/zephyr-rust/rust/zephyr-macros" }
+zephyr-logger = { path = "/workdir/zephyr-rust/rust/zephyr-logger" }
