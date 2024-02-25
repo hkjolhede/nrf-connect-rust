@@ -1,4 +1,4 @@
-FROM ubuntu:22.04 as base
+FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04 as base
 WORKDIR /workdir
 
 ARG sdk_nrf_branch=v2.5-branch
