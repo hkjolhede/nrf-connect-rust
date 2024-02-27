@@ -1,8 +1,9 @@
-FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04 as base
+# FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04 as base
+FROM ubuntu:22.04 as base
 WORKDIR /workdir
 
 ARG sdk_nrf_branch=v2.5-branch
-ARG toolchain_version=v2.5.0
+ARG toolchain_version=v2.5.2
 ARG sdk_nrf_commit
 ARG NORDIC_COMMAND_LINE_TOOLS_VERSION="10-23-2/nrf-command-line-tools-10.23.2"
 ARG arch=amd64
